@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: "Paper Title Number 2"
 collection: publications
 category: manuscripts
