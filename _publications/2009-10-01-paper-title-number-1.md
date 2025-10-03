@@ -1,14 +1,16 @@
----
-title: "Paper Title Number 1"
+
+title: "Integrating Graph Neural Networks with Multi-Agent Deep Reinforcement Learning for Dynamic V2X Communication"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-12-01-gnn-marl-v2x
+excerpt: "This paper proposes Dynamic-aware Graph-based Proximal Policy Optimization (DGPPO), a novel approach integrating Graph Neural Networks (GNNs) with Multi-Agent Deep Reinforcement Learning for efficient spectrum and power allocation in C-V2X networks."
+date: 2024-12-01
+venue: '2024 20th International Conference on Mobility, Sensing and Networking (MSN)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11036469'  # 这里可以放正式的IEEE链接
+pages: '398-405'
+publisher: 'IEEE'
+citation: 'Bingkun Zheng, Haoyu Liang, Jiahao Ling, Shimin Gong, Bo Gu. (2024). "Integrating Graph Neural Networks with Multi-Agent Deep Reinforcement Learning for Dynamic V2X Communication." <i>Proceedings of the 20th International Conference on Mobility, Sensing and Networking (MSN)</i>, pp. 398–405. IEEE Computer Society.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+In the rapidly evolving field of Internet of Vehicles technology, Cellular Vehicle-to-Everything (C-V2X) communication has garnered considerable attention due to its superior performance in terms of coverage, latency, and throughput. Efficient resource allocation in C-V2X networks is crucial for ensuring the transmission of safety-critical information in Vehicle-to-Vehicle (V2V) communication.
+
+In this paper, we propose Dynamic-aware Graph-based Proximal Policy Optimization (DGPPO), a novel approach that integrates Graph Neural Networks (GNNs) with Deep Reinforcement Learning to effectively tackle the challenges of joint spectrum and power allocation in C-V2X networks. The proposed approach constructs a dynamic graph representation where communication links are modeled as nodes, allowing for flexible modeling of network topology changes. Next, we utilize an adaptive GNN to extract essential low-dimensional features for policy learning, enabling efficient and robust dynamic resource allocation in vehicular networks.
