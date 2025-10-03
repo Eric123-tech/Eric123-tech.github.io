@@ -24,7 +24,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /files/Haoyu_Liang_CV_Master__public_.pdf
+    url: "/files/Haoyu_Liang_CV_Master__public_.pdf"
     
   # - title: "CV"
   #   url: /cv-json/
